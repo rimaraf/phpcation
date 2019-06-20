@@ -18,7 +18,11 @@ At this time, the system still needs some work and polish (don't let the "UI" hu
 ### Important files
 
 ##### config.php
-In here is the needed database informations, that you have to change to fit your environment.
+In here is the needed database informations, that you have to change to fit your environment. Plus, you need to create a SQL database with the following column names:
+- id (auto increment)
+- username
+- password
+- email
 
 ##### authenticate.php
 Require this file in any web-faced file that you want to keep "hidden" unless the user is authenticated.
